@@ -1,0 +1,25 @@
+{
+  "name": "repo-roast",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "boxen": "^8.0.1",
+    "cli-spinners": "^3.4.0",
+    "commander": "^15.0.0",
+    "fast-glob": "^3.3.3",
+    "inquirer": "^8.2.6",
+    "log-update": "^8.0.0",
+    "picocolors": "^1.1.1"
+  },
+  "bin": {
+    "repo-roast": "./index.js"
+  },
+  "type": "module"
+}
