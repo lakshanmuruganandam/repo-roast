@@ -1,14 +1,22 @@
 {
   "name": "repo-roast",
   "version": "1.0.4",
-  "description": "",
+  "description": "Roast any GitHub repository and instantly see if it is dead or alive.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "github",
+    "repo",
+    "roast",
+    "cli",
+    "health",
+    "stars",
+    "issues"
+  ],
+  "author": "Lakshan Muruganandam <lakshan@example.com>",
+  "license": "MIT",
   "dependencies": {
     "boxen": "^8.0.1",
     "cli-spinners": "^3.4.0",
