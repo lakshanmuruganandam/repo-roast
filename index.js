@@ -15,12 +15,17 @@ program
   .version('1.0.0')
   .parse(process.argv);
 
-console.log(
-  boxen(
-    pc.red(pc.bold('🔥 REPO ROAST')) + '\n' + pc.gray('Let\'s see what kind of mess you built.'),
-    { padding: 1, margin: 1, borderStyle: 'double', borderColor: 'red' }
-  )
-);
+const banner = `
+    ██████╗ ███████╗██████╗  ██████╗    ██████╗  ██████╗  █████╗  ██████╗████████╗
+    ██╔══██╗██╔════╝██╔══██╗██╔═══██╗   ██╔══██╗██╔═══██╗██╔══██╗██╔════╝╚══██╔══╝
+    ██████╔╝█████╗  ██████╔╝██║   ██║   ██████╔╝██║   ██║███████║╚█████╗    ██║   
+    ██╔══██╗██╔══╝  ██╔═══╝ ██║   ██║   ██╔══██╗██║   ██║██╔══██║ ╚═══██╗   ██║   
+    ██║  ██║███████╗██║     ╚██████╔╝   ██║  ██║╚██████╔╝██║  ██║██████╔╝   ██║   
+    ╚═╝  ╚═╝╚══════╝╚═╝      ╚═════╝    ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝╚═════╝    ╚═╝   
+`;
+
+console.log(pc.red(banner));
+console.log(pc.gray('    Let\'s see what kind of mess you built.\n'));
 
 const typeWriter = async (text, speed = 15) => {
   for (let i = 0; i < text.length; i++) {
