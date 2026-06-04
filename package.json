@@ -1,6 +1,6 @@
 {
   "name": "repo-roast",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Roast any GitHub repository and instantly see if it is dead or alive.",
   "main": "index.js",
   "scripts": {
