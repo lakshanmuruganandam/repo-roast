@@ -25,7 +25,8 @@ const banner = `
 `;
 
 console.log(pc.red(banner));
-console.log(pc.gray('    Let\'s see what kind of mess you built.\n'));
+console.log(pc.gray('    Let\'s see what kind of mess you built.'));
+console.log(pc.dim('    Architected by @lakshanmuruganandam\n'));
 
 const typeWriter = async (text, speed = 15) => {
   for (let i = 0; i < text.length; i++) {
@@ -106,8 +107,6 @@ const run = async () => {
     }
     await typeWriter(pc.red("Do better."));
   }
-
-  console.log(pc.cyan('\nArchitected by @lakshanmuruganandam\n'));
 };
 
 run().catch(e => {
